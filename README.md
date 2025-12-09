@@ -1,5 +1,5 @@
 # Active Directory Toolkit
-<img src="https://raw.githubusercontent.com/N1NJ10/ADBad_Repo/refs/heads/main/Photo.jpg" align="center">
+<img src="https://raw.githubusercontent.com/N1NJ10/ADBad_Repo/refs/heads/main/crte.jpg" align="center">
 
 > A curated toolkit of utilities, executables, PowerShell scripts, DLLs, and reference notes gathered to support Active Directory research, red teaming lab work, and defensive testing in isolated environments.
 
