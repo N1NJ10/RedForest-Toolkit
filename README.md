@@ -115,6 +115,9 @@ Run everything in a safe, isolated lab (e.g., air-gapped VMs, snapshots you can 
 - **Lab work:** reproduce scenarios in isolated test domains to learn detection and mitigation.  
 - **Defensive development:** defenders can use these artifacts (in a safe lab) to validate detections, telemetry, and alerting logic.
 
+- **Python/**
+  - fgpp.py
+
 ## License & disclaimer
 This repository is provided **AS IS** for research, education, and defensive testing only. The maintainers are not responsible for misuse. By using these materials you agree to comply with applicable laws and ethical guidelines. Consider adding a specific license file (e.g., MIT, or a responsible-use / prohibited-use clause) that matches your intent.
 
