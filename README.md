@@ -105,6 +105,7 @@ Run everything in a safe, isolated lab (e.g., air-gapped VMs, snapshots you can 
   - Set-TokenPrivilege.ps1
   - SharpHound.ps1
   - winPEAS.ps1
+  - Import-ActiveDirectory.ps1
 
 - **txt/**
   - Amsi.txt
