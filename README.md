@@ -1,7 +1,5 @@
 # RedForest Toolkit
-<p align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG1uMjhlN2lpNnVmMm5wMTluZDJ6c3M2eXRnc3o0dmk0cXA2YnA2eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MjZT6iMhEvobAY3PQG/giphy.gif" width="1000" />
-</p>
+<img src="https://raw.githubusercontent.com/N1NJ10/RedForest-Toolkit/refs/heads/main/RedForest-Toolkit.jpg" align="center">
 
 > A curated toolkit of utilities, executables, PowerShell scripts, DLLs, and reference notes gathered to support Active Directory research, red teaming lab work, and defensive testing in isolated environments.
 
@@ -22,7 +20,6 @@ Run everything in a safe, isolated lab (e.g., air-gapped VMs, snapshots you can 
   - SeBackupPrivilegeCmdLets.dll
   - SeBackupPrivilegeUtils.dll
   - ssleay32.dll
-
 - **EXE/**
   - BetterSafetyKatz.exe
   - bypass-clm.exe
@@ -31,8 +28,8 @@ Run everything in a safe, isolated lab (e.g., air-gapped VMs, snapshots you can 
   - Fertiliser.exe
   - GoldenGMSA.exe
   - HarvestCrop.exe
-  - Hello_Bypass.exe
   - Hello.exe
+  - Hello_Bypass.exe
   - hfs.exe
   - LaZagne.exe
   - Loader.exe
@@ -44,18 +41,20 @@ Run everything in a safe, isolated lab (e.g., air-gapped VMs, snapshots you can 
   - nc64.exe
   - NimExec.exe
   - Power_Bypass.exe
-  - RawCopy64.exe
   - RawCopy.exe
+  - RawCopy64.exe
+  - Rubeus.exe
   - SafetyKatz.exe
   - SandboxDefender.exe
+  - sessionresume_eqkwLQWs
   - sqlcmd.exe
   - SQLRecon.exe
-  - Sysmon64.exe
   - Sysmon.exe
+  - Sysmon64.exe
   - Transcription_Bypass.exe
   - Watson.exe
-
-- **ps1/**
+  - Whisker.exe
+- **PowerShell/**
   - ADACLScan.ps1
   - adconnect.ps1
   - ASREPRoast.ps1
@@ -63,26 +62,29 @@ Run everything in a safe, isolated lab (e.g., air-gapped VMs, snapshots you can 
   - defender.ps1
   - DomainPasswordSpray.ps1
   - EnableAllTokenPrivs.ps1
+  - Envrandomizer.ps1
   - ExpandDefenderSig.ps1
   - Find-PSRemotingLocalAdminAccess.ps1
   - Find-WMILocalAdminAccess.ps1
   - Get-LAPSPermissions.ps1
   - Get-MSSQLLinkPasswords.psm1
+  - Import-ActiveDirectory.ps1
   - Inveigh.ps1
   - Invoke-ADSDPropagation.ps1
+  - Invoke-DCSync.ps1
   - Invoke-EDRChecker.ps1
   - Invoke-Encode.ps1
   - Invoke-GMSAPasswordReader.ps1
   - Invoke-HoneypotBuster.ps1
-  - Invoke-Mimikatz_old.ps1
-  - Invoke-Mimikatz.ps1
   - Invoke-Mimi.ps1
+  - Invoke-Mimikatz.ps1
+  - Invoke-Mimikatz_old.ps1
   - Invoke-noPac.ps1
   - Invoke-Phant0m.ps1
-  - Invoke-PowerShellTcpEx.ps1
-  - Invoke-PowerShellTcp_Old.ps1
-  - Invoke-PowerShellTcpOneLine.ps1
   - Invoke-PowerShellTcp.ps1
+  - Invoke-PowerShellTcpEx.ps1
+  - Invoke-PowerShellTcpOneLine.ps1
+  - Invoke-PowerShellTcp_Old.ps1
   - Invoke-SDPropagator.ps1
   - Invoke-SDPropagator.ps1.1
   - Invoke-SessionHunter.ps1
@@ -94,8 +96,8 @@ Run everything in a safe, isolated lab (e.g., air-gapped VMs, snapshots you can 
   - powercat.ps1
   - PowerGPOAbuse.ps1
   - Powermad.ps1
-  - PowerUp_Old.ps1
   - PowerUpSQL.ps1
+  - PowerUp_Old.ps1
   - PowerView.ps1
   - Pre2kSpray.ps1
   - PrivescCheck.ps1
@@ -107,14 +109,85 @@ Run everything in a safe, isolated lab (e.g., air-gapped VMs, snapshots you can 
   - Set-TokenPrivilege.ps1
   - SharpHound.ps1
   - winPEAS.ps1
-  - Import-ActiveDirectory.ps1
-
+- **Python/**
+  - addcomputer.py
+  - atexec.py
+  - attrib.py
+  - badsuccessor.py
+  - changepasswd.py
+  - dacledit.py
+  - dcomexec.py
+  - describeTicket.py
+  - dpapi.py
+  - DumpNTLMInfo.py
+  - esentutl.py
+  - exchanger.py
+  - fgpp.py
+  - filetime.py
+  - findDelegation.py
+  - Get-GPPPassword.py
+  - GetADComputers.py
+  - GetADUsers.py
+  - getArch.py
+  - GetLAPSPassword.py
+  - GetNPUsers.py
+  - getnthash.py
+  - getPac.py
+  - gets4uticket.py
+  - getST.py
+  - getTGT.py
+  - gettgtpkinit.py
+  - GetUserSPNs.py
+  - goldenPac.py
+  - httpattack.py
+  - karmaSMB.py
+  - keylistattack.py
+  - kintercept.py
+  - lookupsid.py
+  - machine_role.py
+  - mimikatz.py
+  - mqtt_check.py
+  - mssqlclient.py
+  - mssqlinstance.py
+  - net.py
+  - netview.py
+  - ntfs-read.py
+  - ntlmrelayx.py
+  - owneredit.py
+  - ping.py
+  - ping6.py
+  - psexec.py
+  - pywhisker.py
+  - raiseChild.py
+  - rbcd.py
+  - rdp_check.py
+  - reg.py
+  - registry-read.py
+  - regsecrets.py
+  - renameMachine.py
+  - rpcdump.py
+  - rpcmap.py
+  - sambaPipe.py
+  - samrdump.py
+  - secretsdump.py
+  - services.py
+  - smbclient.py
+  - smbexec.py
+  - smbserver.py
+  - sniff.py
+  - sniffer.py
+  - split.py
+  - ticketConverter.py
+  - ticketer.py
+  - tstool.py
+  - wmiexec.py
+  - wmipersist.py
+  - wmiquery.py
 - **txt/**
   - Amsi.txt
   - sbloggingbypass.txt
-
-- **Python/**
-  - fgpp.py
+- README.md
+- RedForest-ToolKit
 
 ## What this toolkit is for
 - **Research & learning:** quick access to binaries and scripts commonly referenced in AD research and red-team demos.  
