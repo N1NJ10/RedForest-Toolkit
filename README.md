@@ -189,9 +189,6 @@ Run everything in a safe, isolated lab (e.g., air-gapped VMs, snapshots you can 
 - **txt/**
   - Amsi.txt
   - sbloggingbypass.txt
-- README.md
-- RedForest-ToolKit
-
 ## What this toolkit is for
 - **Research & learning:** quick access to binaries and scripts commonly referenced in AD research and red-team demos.  
 - **Lab work:** reproduce scenarios in isolated test domains to learn detection and mitigation.  
