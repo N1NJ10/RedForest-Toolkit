@@ -1,5 +1,8 @@
 # RedForest Toolkit
-<img src="https://raw.githubusercontent.com/N1NJ10/RedForest-Toolkit/refs/heads/main/RedForest-Toolkit.jpg" align="center">
+
+<p align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG1uMjhlN2lpNnVmMm5wMTluZDJ6c3M2eXRnc3o0dmk0cXA2YnA2eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MjZT6iMhEvobAY3PQG/giphy.gif" width="1000" />
+</p>
 
 > A curated toolkit of utilities, executables, PowerShell scripts, DLLs, and reference notes gathered to support Active Directory research, red teaming lab work, and defensive testing in isolated environments.
 
