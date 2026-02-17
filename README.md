@@ -57,6 +57,11 @@ Run everything in a safe, isolated lab (e.g., air-gapped VMs, snapshots you can 
   - Transcription_Bypass.exe
   - Watson.exe
   - Whisker.exe
+  - SharpChrome.exe
+  - SharpDPAPI.exe
+  - SharpSecDump.exe
+  - SharpUserIP.exe
+  - Snaffler.exe
 - **PowerShell/**
   - ADACLScan.ps1
   - adconnect.ps1
@@ -112,6 +117,7 @@ Run everything in a safe, isolated lab (e.g., air-gapped VMs, snapshots you can 
   - Set-TokenPrivilege.ps1
   - SharpHound.ps1
   - winPEAS.ps1
+  - Invoke-SharpSecDump.ps1
 - **Python/**
   - addcomputer.py
   - atexec.py
