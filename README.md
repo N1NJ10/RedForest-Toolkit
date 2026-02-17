@@ -62,6 +62,7 @@ Run everything in a safe, isolated lab (e.g., air-gapped VMs, snapshots you can 
   - SharpSecDump.exe
   - SharpUserIP.exe
   - Snaffler.exe
+  - hfs.exe
 - **PowerShell/**
   - ADACLScan.ps1
   - adconnect.ps1
