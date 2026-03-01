@@ -23,6 +23,11 @@ Run everything in a safe, isolated lab (e.g., air-gapped VMs, snapshots you can 
   - SeBackupPrivilegeCmdLets.dll
   - SeBackupPrivilegeUtils.dll
   - ssleay32.dll
+  - Mimikatz-(x64/Win32)
+    - mimidrv.sys
+    - mimilib.dll
+    - mimispool.dll
+    - mimilove.exe
 - **EXE/**
   - BetterSafetyKatz.exe
   - bypass-clm.exe
@@ -38,7 +43,8 @@ Run everything in a safe, isolated lab (e.g., air-gapped VMs, snapshots you can 
   - Loader.exe
   - MDE_Enum.exe
   - mimidrv.sys
-  - mimikatz.exe
+  - mimikatz-x64.exe
+  - mimikatz-win32.exe
   - mimilib.dll
   - MS-RPRN.exe
   - nc64.exe
