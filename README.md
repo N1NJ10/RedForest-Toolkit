@@ -42,10 +42,8 @@ Run everything in a safe, isolated lab (e.g., air-gapped VMs, snapshots you can 
   - LaZagne.exe
   - Loader.exe
   - MDE_Enum.exe
-  - mimidrv.sys
   - mimikatz-x64.exe
   - mimikatz-win32.exe
-  - mimilib.dll
   - MS-RPRN.exe
   - nc64.exe
   - NimExec.exe
@@ -69,6 +67,7 @@ Run everything in a safe, isolated lab (e.g., air-gapped VMs, snapshots you can 
   - SharpUserIP.exe
   - Snaffler.exe
   - hfs.exe
+  - ntfsDump.exe
 - **PowerShell/**
   - ADACLScan.ps1
   - adconnect.ps1
@@ -125,6 +124,9 @@ Run everything in a safe, isolated lab (e.g., air-gapped VMs, snapshots you can 
   - SharpHound.ps1
   - winPEAS.ps1
   - Invoke-SharpSecDump.ps1
+  - SpoolerScan.ps1
+  - Invoke-NinjaCopy.ps1
+  - UnderlayCopy.ps1
 - **Python/**
   - addcomputer.py
   - atexec.py
