@@ -179,9 +179,11 @@ Navigate through the categorized folders (`EXE`, `PowerShell`, `dlls`, etc.) to 
   - PowerView.py
   - LdapRelayScan.py
   - Hash_Calculator.py
-- **txt/**
+- **Misc/**
   - Amsi.txt
   - sbloggingbypass.txt
+  - sysmonconfig-export.xml
+  - sysmonconfig.xml
 ## What this toolkit is for
 - **Research & learning:** quick access to binaries and scripts commonly referenced in AD research and red-team demos.  
 - **Lab work:** reproduce scenarios in isolated test domains to learn detection and mitigation.  
